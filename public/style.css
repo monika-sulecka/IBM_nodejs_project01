@@ -1,13 +1,45 @@
 body {
-	background-color: #2dc0ff;
+	background-color: #f0f4f8;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
 }
 
-h1 {
-	color: black;
-	font-size: 30px;
-	font-family: Menlo, Monaco, fixed-width;
+.card {
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+	max-width: 400px;
+	text-align: center;
+	overflow: hidden;
+	transition: transform 0.2s ease;
 }
-p {
-	color: rgb(27, 124, 184);
-	font-family: 'Source Code Pro', Menlo, Monaco, fixed-width;
+
+.card:hover {
+	transform: scale(1.02);
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-content {
+	padding: 20px;
+}
+
+.card-content h1 {
+	margin: 0 0 10px;
+	font-size: 1.8rem;
+	color: #003366;
+}
+
+.card-content p {
+	color: #555;
+	font-size: 1rem;
+	line-height: 1.4;
 }
