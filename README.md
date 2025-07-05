@@ -1,4 +1,5 @@
 # IBM_nodejs_project01
+
 IBM MicroBachelors Full Stack Application Development => NodeJS Project
 
 # IBM Node.js Project – Full Stack Web Development
@@ -49,8 +50,9 @@ Alternatively, you can clone this repo and run it locally on your machine using 
 ---
 
 ## 💻 Project Preview
+
 Here is a screenshot of the application:
-![Node.js Project Preview](./assets/screenshot.png)
+![Node.js Project Preview](./assets/IBM_nodejs_project01.png)
 
 ---
 
