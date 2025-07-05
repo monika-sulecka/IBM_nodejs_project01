@@ -57,22 +57,23 @@ Here is a screenshot of the application:
 ---
 
 ## 📁 Project Structure
-➡️ The HTML page is served from the `public/` folder.
-➡️ The project screenshot is stored in `assets/`.
-➡️ Main backend logic is in `server.js`.
+
+> 🟦 The HTML page is served from the `public/` folder.  
+> 🖼️ The project screenshot is stored in `assets/`.  
+> 🔧 Main backend logic is in `server.js`.
 
 IBM_nodejs_project01/
 ├── assets/
-│   └── IBM_nodejs_project01.png       # Project screenshot
-├── node_modules/                      # Installed npm packages
+│ └── IBM_nodejs_project01.png # Project screenshot
+├── node_modules/ # Installed npm packages
 ├── public/
-│   ├── helloword.html                 # Frontend HTML file
-│   └── style.css                      # Styling for the project
-├── script.js                          # Frontend logic
-├── server.js                          # Node.js + Express backend
-├── package.json                       # Project metadata and dependencies
-├── package-lock.json                  # Exact versions of installed packages
-└── README.md                          # Project documentation
+│ ├── helloword.html # Frontend HTML file
+│ └── style.css # Styling for the project
+├── script.js # Frontend logic (fetches API)
+├── server.js # Node.js + Express backend
+├── package.json # Project metadata and dependencies
+├── package-lock.json # Exact versions of installed packages
+└── README.md # Project documentation
 
 ---
 
