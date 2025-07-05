@@ -48,6 +48,12 @@ Alternatively, you can clone this repo and run it locally on your machine using 
 
 ---
 
+## 💻 Project Preview
+Here is a screenshot of the application:
+![Node.js Project Preview](./assets/screenshot.png)
+
+---
+
 ## 📁 Project Structure
 
 ibm-nodejs-project01/
