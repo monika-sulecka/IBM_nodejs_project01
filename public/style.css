@@ -1,3 +1,4 @@
+/* General page layout */
 body {
 	background-color: #f0f4f8;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,11 +9,13 @@ body {
 	margin: 0;
 }
 
+/* Card container with image and content */
 .card {
 	background-color: white;
 	border-radius: 12px;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 	max-width: 400px;
+	width: 90%;
 	text-align: center;
 	overflow: hidden;
 	transition: transform 0.2s ease;
@@ -28,6 +31,7 @@ body {
 	display: block;
 }
 
+/* Text content inside the card */
 .card-content {
 	padding: 20px;
 }
@@ -42,4 +46,27 @@ body {
 	color: #555;
 	font-size: 1rem;
 	line-height: 1.4;
+}
+
+/* Fun fact box */
+.fact {
+	background-color: #e6f2ff;
+	padding: 15px;
+	margin: 20px;
+	margin-top: 0;
+	border-left: 4px solid #007acc;
+	border-radius: 8px;
+	text-align: left;
+}
+
+.fact h2 {
+	margin-top: 0;
+	color: #005fa3;
+	font-size: 1.2rem;
+}
+
+.fact p {
+	margin: 5px 0 0;
+	font-size: 0.95rem;
+	color: #333;
 }
